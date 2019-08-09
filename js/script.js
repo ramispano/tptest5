@@ -1,31 +1,31 @@
 let btnFinalizar =  document.getElementById('btn-1');
 
 let aciertos = 0;
-let pr1r1 = document.getElementById('pr1r1');
-let pr2r3 = document.getElementById('pr2r3');
-let pr3r2 = document.getElementById('pr3r2');
-let pr4r1 = document.getElementById('pr4r1');
-let pr5r1 = document.getElementById('pr5r1');
+let p1r1 = document.getElementById('p1r1');
+let p2r3 = document.getElementById('p2r3');
+let p3r2 = document.getElementById('p3r2');
+let p4r1 = document.getElementById('p4r1');
+let p5r1 = document.getElementById('p5r1');
 
 
 btnFinalizar.onclick = function(){
-	if ( pr1r1.checked == true ) {
+	if ( p1r1.checked == true ) {
 		aciertos = aciertos + 1;
 	}
 
-	if ( pr2r3.checked == true ) {
+	if ( p2r3.checked == true ) {
 		aciertos = aciertos + 1;
 	}
 
-	if ( pr3r2.checked == true ) {
+	if ( p3r2.checked == true ) {
 		aciertos = aciertos + 1;
 	}
 
-	if ( pr4r1.checked == true ) {
+	if ( p4r1.checked == true ) {
 		aciertos = aciertos + 1;
 	}
 
-	if ( pr5r1.checked == true ) {
+	if ( p5r1.checked == true ) {
 		aciertos = aciertos + 1;
 	}
 
